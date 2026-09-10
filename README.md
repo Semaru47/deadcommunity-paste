@@ -1,48 +1,56 @@
 # DeadPaste
 
-> DeadCommunity product showcase — **no source code**.
+> ◆ DeadCommunity product card — **no source code · no API keys**.
 
-**Role:** Pastebin-style sharing with Markdown preview
+### ◆ Role
 
-Share snippets and notes quickly with Markdown preview — a private-community paste service on our stack.
+**Paste sharing with Markdown preview**
 
-## Live
+Share snippets and notes quickly with Markdown preview on our stack.
 
-**[https://paste.deadcommunity.com](https://paste.deadcommunity.com)**
+### ◆ Live
 
-## What it does
+↳ **[https://paste.deadcommunity.com](https://paste.deadcommunity.com)**
 
-- Fast paste creation and sharing
-- Markdown-friendly preview
-- Self-hosted alternative to public paste sites
+### ◆ What it does
 
-## Who it’s for
+▸ Fast paste creation
+▸ Markdown-friendly preview
+▸ Self-hosted alternative to public paste sites
 
-Team / community snippet sharing
+### ◆ Highlights
 
-## Stack (high level)
+○ Private-community oriented
+○ Live hostname
+○ DC tool shelf
+
+### ◆ Who it’s for
+
+▸ Team / community snippet sharing
+
+### ◆ Stack (high level)
 
 `Web app` · `Docker` · `Nginx` · `Cloudflare Tunnel`
 
-## Status
+### ◆ Status
 
-- **Production:** running on DeadCommunity infrastructure  
-- **Source:** private (not published)  
-- **Operator model:** idea → UI/API → Docker deploy → uptime  
+| ▣ | ○ |
+|:--|:--|
+| Production | Running on DeadCommunity infrastructure |
+| Source | **Private** (not published) |
+| Public surface | This README + live URL only |
+| Operator model | ■ scope → ■ build → ■ containerize → ■ hostname → ■ iterate |
 
+### ◆ Policy
+
+| Included | Not included |
+|:---------|:-------------|
+| Purpose · live link · stack overview | Application source |
+| High-level architecture notes | `.env` · secrets · API keys · tokens |
+| Operator story | Production private configs |
 
 ---
 
-## About this repository
-
-This is a **public product card**, not a source dump.
-
-| Included | Not included |
-|----------|--------------|
-| What the product is | Application source code |
-| Live URL (when public) | `.env`, secrets, API keys |
-| High-level stack | Production private configs |
-
-Index of all products: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
-Profile: [github.com/Semaru47](https://github.com/Semaru47) · Site: [deadcommunity.com](https://deadcommunity.com)
-
+↳ Index: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
+↳ Profile: [github.com/Semaru47](https://github.com/Semaru47)  
+↳ Brand: [deadcommunity.com](https://deadcommunity.com)
